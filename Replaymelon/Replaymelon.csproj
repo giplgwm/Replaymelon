@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\..\Desktop\games_to_hack\og\unity\mono\ReGhost\MelonLoader\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\Desktop\games_to_hack\og\unity\mono\ReGhost\MicroJamGhost_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="MelonLoader">
+      <HintPath>..\..\..\..\Desktop\games_to_hack\og\unity\mono\ReGhost\MelonLoader\MelonLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\Desktop\games_to_hack\og\unity\mono\ReGhost\MicroJamGhost_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\Desktop\games_to_hack\og\unity\mono\ReGhost\MicroJamGhost_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\..\..\..\Desktop\games_to_hack\og\unity\mono\ReGhost\MicroJamGhost_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
